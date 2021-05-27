@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ejercicio 13</title>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+    <div onclick="funcionExterior()">
+        <p>Párrafo fuera de la tabla</p>
+    </div>
+    <table border="1" id="tabla1">
+        <tr  onclick="funcionTabla1()">
+        <td>
+            <p>Párrafo dentro de la primer tabla.</p>
+        </td>
+        <td>
+            <p>Párrafo dentro de la primer tabla.</p>
+        </td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" id="tabla2">
+        <tr onclick="funcionTabla2()">
+        <td>
+            <p>Párrafo dentro de la segunda tabla.</p>
+        </td>
+        <td>
+            <p>Párrafo dentro de la segunda tabla.</p>
+        </td>
+        </tr>
+    </table>    
+    <!--llamo al script que está en el archivo script.js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
